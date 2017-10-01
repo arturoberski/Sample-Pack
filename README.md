@@ -1,14 +1,13 @@
 # Sample_Pack
 
-Link to project: https://arturoberski.github.io/Sample_Pack/
+You have to download this project and run it with a web server to see all of its functionalities.
 
-'Sample Pack' is a simple one-page project, based on HTML, CSS, jQuery and PHP. It has the following functionalities:
+'Sample Pack' is a simple one-page project, based on HTML, CSS, jQuery, AJAX and PHP. It has the following functionalities:
 
-    in the 'header' section there is navigation, when you hover over its items, the corresponding drop-down menu shows up,
-    in 'section1' there is a slider and a button,
-    in 'section2' there are three blocks, two of which change their appearance when you hover over them,
-    in 'section3' there are three blocks with buttons that change their appearance when you hover over them,
-    in 'application' section there are three drop-down lists from which you can select some options. Choosing an option adds it to the summary block and generates the total amount,
-    in 'section 4' there is a contact form.
+- when you click on 'push the button' button, every 'ipsum' word that is present in the articles, will turn its color to red for 3 seconds,
+- when you click 'read more' in articles section, an extra content will be displayed,
+- when you click 'back to top' button, the site will scroll smoothly to the top of the page,
+- when you fill in the form correctly and click 'send message' button, form will be send to a PHP script with AJAX. The script will return (if validation is successfull) a response with enetered data,
+- additionaly, you can use two GET variables (text, color) and type them in URL bar, to change appearance of the main header.
 
 In poject there are used some @media rules, providing appropriate display for different screen widths.
